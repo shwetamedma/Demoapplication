@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+@class GADBannerView;
 
 @interface ViewController : UIViewController
+{
 
+}
+@property (weak, nonatomic) IBOutlet GADBannerView *bannerview;
 
 @end
 
